@@ -1,0 +1,70 @@
+{
+  "pieces": [
+    {
+      "prefabname": "",
+      "displaynametoken": "$piece_rkc_",
+      "prefabdescription": "",
+      "requirements": [
+        {
+          "item": "",
+          "amount": 1
+        }
+      ],
+      "material": ""
+    },
+    {
+      "prefabname": "",
+      "displaynametoken": "$piece_rkc_",
+      "prefabdescription": "",
+      "requirements": [
+        {
+          "item": "",
+          "amount": 1
+        }
+      ],
+      "material": ""
+    },
+    {
+      "prefabname": "",
+      "displaynametoken": "$piece_rkc_",
+      "prefabdescription": "",
+      "requirements": [
+        {
+          "item": "",
+          "amount": 1
+        }
+      ],
+      "material": ""
+    },
+    {
+      "prefabname": "",
+      "displaynametoken": "$piece_rkc_",
+      "prefabdescription": "",
+      "requirements": [
+        {
+          "item": "",
+          "amount": 1
+        }
+      ],
+      "material": ""
+    },
+    {
+      "prefabname": "rkc_trowel",
+      "displaynametoken": "$piece_rkc_trowel",
+      "prefabdescription": "The original tool intended for building castles before it was replaced by the scepter, now just a pretty piece of clutter.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    }
+  ]
+},
+    
+

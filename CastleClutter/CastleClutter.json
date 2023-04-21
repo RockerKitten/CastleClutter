@@ -1,0 +1,2377 @@
+{
+  "pieces": [
+    {
+      "prefabname": "rkc_alchemy1",
+      "displaynametoken": "$piece_rkc_alchemy",
+      "prefabdescription": "Mortar and pestle for your alchemical needs.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_alchemy2",
+      "displaynametoken": "$piece_rkc_alchemy",
+      "prefabdescription": "Copper scales to measuer your alchemical supplies.",
+      "requirements": [
+        {
+          "item": "Copper",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_alchemy3",
+      "displaynametoken": "$piece_rkc_alchemy",
+      "prefabdescription": "A lovely decorative alembic.",
+      "requirements": [
+        {
+          "item": "Copper",
+          "amount": 2
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_alchemy4",
+      "displaynametoken": "$piece_rkc_alchemy",
+      "prefabdescription": "Wall shelf with alchemy supplies.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_alchemy5",
+      "displaynametoken": "$piece_rkc_alchemy",
+      "prefabdescription": "Table with alchemy supplies.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_alchemy6",
+      "displaynametoken": "$piece_rkc_alchemy",
+      "prefabdescription": "Bookshelf with alchemy supplies.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_banner1",
+      "displaynametoken": "$piece_rkc_banner",
+      "prefabdescription": "Small wall banner.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_banner2",
+      "displaynametoken": "$piece_rkc_banner",
+      "prefabdescription": "Medium wall banner",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 3
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_banner3",
+      "displaynametoken": "$piece_rkc_banner",
+      "prefabdescription": "Large wall banner",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_banner4",
+      "displaynametoken": "$piece_rkc_banner",
+      "prefabdescription": "Small baner on a stand.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_banner6",
+      "displaynametoken": "$piece_rkc_banner",
+      "prefabdescription": "Long yellow banner.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_banner7",
+      "displaynametoken": "$piece_rkc_banner",
+      "prefabdescription": "Long green banner.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_barrels",
+      "displaynametoken": "$piece_rkc_barrels",
+      "prefabdescription": "Ale barrels, not sure if they are empty or full...",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 8
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bed3",
+      "displaynametoken": "$piece_rkc_bed",
+      "prefabdescription": "Single bed with blue blanket.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        },
+        {
+          "item": "DeerHide",
+          "amount": 4
+        },
+        {
+          "item": "IronNails",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bed4",
+      "displaynametoken": "$piece_rkc_bed",
+      "prefabdescription": "Double bed with blue blanket. Still only sleeps one.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 8
+        },
+        {
+          "item": "DeerHide",
+          "amount": 6
+        },
+        {
+          "item": "IronNails",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bed5",
+      "displaynametoken": "$piece_rkc_bed",
+      "prefabdescription": "Double canopy bed with blue blanket. Still only sleeps one.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        },
+        {
+          "item": "DeerHide",
+          "amount": 6
+        },
+        {
+          "item": "IronNails",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bed1",
+      "displaynametoken": "$piece_rkc_bed",
+      "prefabdescription": "Single bed with red blanket.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        },
+        {
+          "item": "DeerHide",
+          "amount": 4
+        },
+        {
+          "item": "IronNails",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bed2",
+      "displaynametoken": "$piece_rkc_bed",
+      "prefabdescription": "Double canopy bed with red blanket. Still only sleeps one.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        },
+        {
+          "item": "DeerHide",
+          "amount": 6
+        },
+        {
+          "item": "IronNails",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bench1",
+      "displaynametoken": "$piece_rkc_bench",
+      "prefabdescription": "Hard wooden bench.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_bench2",
+      "displaynametoken": "$piece_rkc_bench",
+      "prefabdescription": "Metal bench with soft seat.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        },
+        {
+          "item": "LeatherScraps",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_books",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Small book pile",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books2",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Open book on local flora.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books3",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Open book of alchemy.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books4",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Open book with candle on a wide podium.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books6",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Open book on smaller podium with candle.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_podium",
+      "displaynametoken": "$piece_rkc_podium",
+      "prefabdescription": "Wooden poduim with an open book.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 8
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_books7",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Large stack of books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books8",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Medium stack of books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books9",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Stack of book with scrolls.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books10",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Pile of books and scrolls.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books11",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Pile of scrolls.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books12",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Single closed book.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books13",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Single closed book.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_books14",
+      "displaynametoken": "$piece_rkc_books",
+      "prefabdescription": "Single closed book.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bookshelf1",
+      "displaynametoken": "$piece_rkc_bookshelf",
+      "prefabdescription": "Wall shelf full of books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bookshelf2",
+      "displaynametoken": "$piece_rkc_bookshelf",
+      "prefabdescription": "Bookshelf with lots of books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bookshelf3",
+      "displaynametoken": "$piece_rkc_bookshelf",
+      "prefabdescription": "Bookshelf with lots of books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bookshelf4",
+      "displaynametoken": "$piece_rkc_bookshelf",
+      "prefabdescription": "Fancy bookshelf with lots of books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bookshelf5",
+      "displaynametoken": "$piece_rkc_bookshelf",
+      "prefabdescription": "Fancy bookshelf and cupboard with books.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bookshelf6",
+      "displaynametoken": "$piece_rkc_bookshelf",
+      "prefabdescription": "Large fancy empty bookshelf.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_bottle",
+      "displaynametoken": "$piece_rkc_bottle",
+      "prefabdescription": "Green glass bottle.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_bowl",
+      "displaynametoken": "$piece_rkc_bowl",
+      "prefabdescription": "Red clay bowl.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 1
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_broom1",
+      "displaynametoken": "$piece_rkc_broom",
+      "prefabdescription": "Broom with a stand. It looks like maybe you could ride it?",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_broom2",
+      "displaynametoken": "$piece_rkc_broom",
+      "prefabdescription": "Broom with a stand. It looks like maybe you could ride it?",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_broom3",
+      "displaynametoken": "$piece_rkc_broom",
+      "prefabdescription": "Broom with a stand. It looks like maybe you could ride it?",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_candle",
+      "displaynametoken": "$piece_rkc_candle",
+      "prefabdescription": "Red candles on tall metal stand.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candle2",
+      "displaynametoken": "$piece_rkc_candle",
+      "prefabdescription": "Blue candles on tall metal stand.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candle3",
+      "displaynametoken": "$piece_rkc_candle",
+      "prefabdescription": "Purple candles on tall metal stand.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand1",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Fancy tall candle stand.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand2",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Fancy metal candle stand.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand3",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Standing metal candle stand.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand4",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Single candle on a short metal holder.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand5",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Two candles on a short metal holder.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand6",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Three candles on a short metal holder.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_candlestand7",
+      "displaynametoken": "$piece_rkc_candlestand",
+      "prefabdescription": "Simple canlde in a holder",
+      "requirements": [
+        {
+          "item": "Bronze",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_chair1",
+      "displaynametoken": "$piece_rkc_chair",
+      "prefabdescription": "Simple wooden chair.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chair2",
+      "displaynametoken": "$piece_rkc_chair",
+      "prefabdescription": "Metal chair with a padded seat.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_chair3",
+      "displaynametoken": "$piece_rkc_chair",
+      "prefabdescription": "Fancy wooden chair.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chair4",
+      "displaynametoken": "$piece_rkc_chair",
+      "prefabdescription": "Simple wooden chair with a padded seat.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "LeatherScraps",
+          "amount": 2
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chair5",
+      "displaynametoken": "$piece_rkc_chair",
+      "prefabdescription": "Nice wooden chair with a padded seat.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "LeatherScraps",
+          "amount": 2
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chair6",
+      "displaynametoken": "$piece_rkc_chair",
+      "prefabdescription": "Very fancy wood chair with padding.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 4
+        },
+        {
+          "item": "LeatherScraps",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chest",
+      "displaynametoken": "$piece_rkc_chest",
+      "prefabdescription": "Simple wooden chest.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 4
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chest2",
+      "displaynametoken": "$piece_rkc_chest",
+      "prefabdescription": "Nice wood and bronze chest.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 5
+        },
+        {
+          "item": "Bronze",
+          "amount": 2
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_chest3",
+      "displaynametoken": "$piece_rkc_chest",
+      "prefabdescription": "Fancy wood and bronze chest.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Bronze",
+          "amount": 2
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_crystal1",
+      "displaynametoken": "$piece_rkc_crystal",
+      "prefabdescription": "Blue crystal that glows",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal2",
+      "displaynametoken": "$piece_rkc_crystal",
+      "prefabdescription": "Red crystal that glows",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal3",
+      "displaynametoken": "$piece_rkc_crystal",
+      "prefabdescription": "Purple crystal that glows",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal1lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Blue round crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal1lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Red round crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal1lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Purple round crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal2lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Cylindrical blue crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal2lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Cylindrical red crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal2lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Cylindrical purple crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal3lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Small blue crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal3lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Small red crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal3lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Small purple crystal table lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal4lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Blue crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal4lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Red crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal4lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Purple crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal5lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Large blue crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal5lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Large red crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal5lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Large purple crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal6lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Medium blue crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal6lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Medium red crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal6lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Medium purple crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal7lamp1",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Small blue crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal7lamp2",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Small red crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_crystal7lamp3",
+      "displaynametoken": "$piece_rkc_crystallamp",
+      "prefabdescription": "Small purple crystal wall lamp.",
+      "requirements": [
+        {
+          "item": "Crystal",
+          "amount": 2
+        },
+        {
+          "item": "Raspberry",
+          "amount": 1
+        },
+        {
+          "item": "Blueberries",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "crystal"
+    },
+    {
+      "prefabname": "rkc_cup1",
+      "displaynametoken": "$piece_rkc_cup",
+      "prefabdescription": "Simple stone cup",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 1
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_curtain1",
+      "displaynametoken": "$piece_rkc_curtain",
+      "prefabdescription": "Black single pannel curtain.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_curtain2",
+      "displaynametoken": "$piece_rkc_curtain",
+      "prefabdescription": "Purple single pannel curtain.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_curtain3",
+      "displaynametoken": "$piece_rkc_curtain",
+      "prefabdescription": "Black double pannel curtain.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_curtain4",
+      "displaynametoken": "$piece_rkc_curtain",
+      "prefabdescription": "Purple double pannel curtain.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_curtain5",
+      "displaynametoken": "$piece_rkc_curtain",
+      "prefabdescription": "Red left curtain",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 3
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_curtain6",
+      "displaynametoken": "$piece_rkc_curtain",
+      "prefabdescription": "Red right curtain",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 3
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_fountain",
+      "displaynametoken": "$piece_rkc_fountain",
+      "prefabdescription": "Empty stone fountain.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 20
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_hanginglight1",
+      "displaynametoken": "$piece_rkc_chandelier",
+      "prefabdescription": "Chandelier",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_hanginglight2",
+      "displaynametoken": "$piece_rkc_chandelier",
+      "prefabdescription": "Blue crystal chandelier",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        },
+        {
+          "item": "Crystal",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_hanginglight3",
+      "displaynametoken": "$piece_rkc_chandelier",
+      "prefabdescription": "Red crystal chandelier",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        },
+        {
+          "item": "Crystal",
+          "amount": 4
+        },
+        {
+          "item": "Raspberry",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_hanginglight4",
+      "displaynametoken": "$piece_rkc_chandelier",
+      "prefabdescription": "Purple crystal chandelier",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        },
+        {
+          "item": "Crystal",
+          "amount": 4
+        },
+        {
+          "item": "Raspberry",
+          "amount": 2
+        },
+        {
+          "item": "Blueberries",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_hanginglight5",
+      "displaynametoken": "$piece_rkc_chandelier",
+      "prefabdescription": "White crystal chandelier",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        },
+        {
+          "item": "Crystal",
+          "amount": 4
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_hanginglight6",
+      "displaynametoken": "$piece_rkc_chandelier",
+      "prefabdescription": "Wooden chandelier",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_ink1",
+      "displaynametoken": "$piece_rkc_inkwell",
+      "prefabdescription": "Inkwell and quill for your medieval desk.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 1
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_jug1",
+      "displaynametoken": "$piece_rkc_jug",
+      "prefabdescription": "Stone jug to decorate your rustic home.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 2
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_jug2",
+      "displaynametoken": "$piece_rkc_",
+      "prefabdescription": "Fancy tin jug to replace your stone age one.",
+      "requirements": [
+        {
+          "item": "Tin",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_lamp",
+      "displaynametoken": "$piece_rkc_hanginglamp",
+      "prefabdescription": "Candle hanging from a wood post.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        },
+        {
+          "item": "Tin",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_lamp2",
+      "displaynametoken": "$piece_rkc_hanginglamp",
+      "prefabdescription": "Pretty glass lamp hanging from a wood post.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        },
+        {
+          "item": "Chain",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_lamp3",
+      "displaynametoken": "$piece_rkc_hanginglamp",
+      "prefabdescription": "Functional glass lamp, hanging from wood post.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 1
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_lamppost1",
+      "displaynametoken": "$piece_rkc_lamppost",
+      "prefabdescription": "Wood and stone lamp post with two lights.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        },
+        {
+          "item": "Stone",
+          "amount": 6
+        },
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_lamppost2",
+      "displaynametoken": "$piece_rkc_lamppost",
+      "prefabdescription": "Fancy metal lamp post with two lights. Matches the single in Build It.",
+      "requirements": [
+        {
+          "item": "Bronze",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_pan",
+      "displaynametoken": "$piece_rkc_pan",
+      "prefabdescription": "Simple tin skillet for your stove, oven or grill.",
+      "requirements": [
+        {
+          "item": "Tin",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_pan2",
+      "displaynametoken": "$piece_rkc_pan",
+      "prefabdescription": "Simple tin skillet for your stove, oven or grill. Now with an item stand!",
+      "requirements": [
+        {
+          "item": "Tin",
+          "amount": 2
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_pedestal1",
+      "displaynametoken": "$piece_rkc_pedestal",
+      "prefabdescription": "Large pedestal for displaying statues or whatever you decide to place on it.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 6
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_pedestal2",
+      "displaynametoken": "$piece_rkc_pedestal",
+      "prefabdescription": "Short pedestal for didplaying whatever you choose to place on it.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 4
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_plate",
+      "displaynametoken": "$piece_rkc_plate",
+      "prefabdescription": "Simple clay plate.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 1
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_rug1",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "Center piece for snappable black rug.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_rug2",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "End piece for snappable black rug.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_rug3",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "Straight center piece for snappable red rug.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_rug4",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "End piece for snappable red rug.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_rug5",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "Corner piece for snappable red rug.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_rug6",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "T piece for snappable red rug.",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_rug7",
+      "displaynametoken": "$piece_rkc_rug",
+      "prefabdescription": "X piece for snappable red rug",
+      "requirements": [
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_scorpion",
+      "displaynametoken": "$piece_rkc_scorpion",
+      "prefabdescription": "Large metal scorpion statue.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 4
+        },
+        {
+          "item": "Ruby",
+          "amount": 1
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_shelflong",
+      "displaynametoken": "$piece_rkc_wallshelf",
+      "prefabdescription": "Simple long wall shelf.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_shelfshort",
+      "displaynametoken": "$piece_rkc_wallshelf",
+      "prefabdescription": "Simple short wall shelf",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_shelfshort2",
+      "displaynametoken": "$piece_rkc_wallshelf",
+      "prefabdescription": "Fancy short wall shelf.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_shelfshort3",
+      "displaynametoken": "$piece_rkc_wallshelf",
+      "prefabdescription": "Wall shelf with fancy wood supports.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_shelfshort4",
+      "displaynametoken": "$piece_rkc_wallshelf",
+      "prefabdescription": "Wall shelf with fancy metal supports",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_sign",
+      "displaynametoken": "$piece_rkc_sign",
+      "prefabdescription": "Doublesided sign hanging from a wooden post.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 2
+        },
+        {
+          "item": "Iron",
+          "amount": 1
+        },
+        {
+          "item": "Coal",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_sign2",
+      "displaynametoken": "$piece_rkc_sign",
+      "prefabdescription": "Larger doublesided sign hanging from a wooden post.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 2
+        },
+        {
+          "item": "Coal",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_statue1",
+      "displaynametoken": "$piece_rkc_statue",
+      "prefabdescription": "Large decorative metal statue.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 6
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_statue2",
+      "displaynametoken": "$piece_rkc_statue",
+      "prefabdescription": "Large decorative metal statue.",
+      "requirements": [
+        {
+          "item": "Iron",
+          "amount": 6
+        }
+      ],
+      "material": "metal"
+    },
+    {
+      "prefabname": "rkc_table1",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "Fancy wooden table.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_table2",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "Darkwood table.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        },
+        {
+          "item": "Tar",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_table3",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "Simple sturdy wooden table.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_table4",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "Nice sturdy wooden table.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_table5",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "Large round wooden table fit for knights.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        },
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_table6",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "End piece for snappable long wooden table.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_table7",
+      "displaynametoken": "$piece_rkc_table",
+      "prefabdescription": "Middle section for snappable long wooden table.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_tableside",
+      "displaynametoken": "$piece_rkc_sidetable",
+      "prefabdescription": "Darkwood side table.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Tar",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_throne",
+      "displaynametoken": "$piece_rkc_throne",
+      "prefabdescription": "Wooden throne.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 8
+        },
+        {
+          "item": "Ruby",
+          "amount": 1
+        }
+      ],
+      "material": "Wood"
+    },
+    {
+      "prefabname": "rkc_throne2",
+      "displaynametoken": "$piece_rkc_throne",
+      "prefabdescription": "Fancy wooden throne.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_throne3",
+      "displaynametoken": "$piece_rkc_throne",
+      "prefabdescription": "Fancy stone throne",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 10
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_torchwall",
+      "displaynametoken": "$piece_rkc_torch",
+      "prefabdescription": "Wicked looking stone wall torch",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 4
+        },
+        {
+          "item": "Resin",
+          "amount": 2
+        }
+      ],
+      "material": "stone",
+      "FuelItem": "Resin"
+    },
+    {
+      "prefabname": "rkc_tree1",
+      "displaynametoken": "$piece_rkc_tree",
+      "prefabdescription": "Dead looking dark wood tree.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 20
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_tree2",
+      "displaynametoken": "$piece_rkc_tree",
+      "prefabdescription": "Dead looking dark wood tree.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 20
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_tree3",
+      "displaynametoken": "$piece_rkc_tree",
+      "prefabdescription": "Dead looking spindly tree.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 10
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_urn1",
+      "displaynametoken": "$piece_rkc_urn",
+      "prefabdescription": "Simple stone urn.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 2
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_urn2",
+      "displaynametoken": "$piece_rkc_urn",
+      "prefabdescription": "Simple stone urn.",
+      "requirements": [
+        {
+          "item": "Stone",
+          "amount": 2
+        }
+      ],
+      "material": "stone"
+    },
+    {
+      "prefabname": "rkc_walldecor1",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Pair of crossed axes on a wooden wall mount.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_walldecor2",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Pair of axes and chest armor on a wooden wall mount.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_walldecor3",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Pair of crossed swords on a wooden wall mount.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 4
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_walldecor4",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Single axe on a wooden wall mount.",
+      "requirements": [
+        {
+          "item": "Wood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_walldecor5",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Trophy from an animal not native to the area mounted on a fine wood wall mount.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 4
+        },
+        {
+          "item": "DeerHide",
+          "amount": 2
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_walldecor6",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Bones from what appear to be a deer mounted on a fine wood wall mount.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 4
+        },
+        {
+          "item": "BoneFragments",
+          "amount": 4
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_walldecor7",
+      "displaynametoken": "$piece_rkc_walldeco",
+      "prefabdescription": "Fine wood item mount.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand1",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand2",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand3",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand4",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand5",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand6",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_wand7",
+      "displaynametoken": "$piece_rkc_wand",
+      "prefabdescription": "Mysterious wand.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 1
+        }
+      ],
+      "material": "wood"
+    },
+    {
+      "prefabname": "rkc_weaponsrack",
+      "displaynametoken": "$piece_rkc_weprack",
+      "prefabdescription": "Wooden weapons rack with some decorative weapons on it, looks like you can store things here though.",
+      "requirements": [
+        {
+          "item": "FineWood",
+          "amount": 4
+        },
+        {
+          "item": "Iron",
+          "amount": 6
+        }
+      ],
+      "material": "wood"
+    }
+  ]
+}

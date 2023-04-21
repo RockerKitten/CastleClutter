@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BuildItTemplate
+namespace CastleClutter
 {
     public class BuildItPiece
     {

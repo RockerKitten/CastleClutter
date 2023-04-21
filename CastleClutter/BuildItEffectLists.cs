@@ -3,7 +3,7 @@
 // 
 // File:    BuildIt-Castles.cs
 // Project: BuildIt-Castles
-namespace BuildItTemplate
+namespace CastleClutter
 {
     public class BuildItEffectLists
     {

@@ -1,4 +1,4 @@
-﻿namespace BuildItTemplate
+﻿namespace CastleClutter
 {
     public class BuildItPieceRequirement
     {

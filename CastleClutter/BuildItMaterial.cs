@@ -1,9 +1,10 @@
-﻿namespace BuildItTemplate
+﻿namespace CastleClutter
 {
     public enum BuildItMaterial
     {
         Wood,
         Stone,
-        Metal
+        Metal,
+        Crystal
     }
 }

@@ -3,14 +3,13 @@
 // 
 // File:    BuildIt-Castles.cs
 // Project: BuildIt-Castles
+using Mono.Collections.Generic;
 using System.Collections.Generic;
 
-namespace BuildItTemplate
+namespace CastleClutter
 {
-    public class BuildItPieceCategories
+    public class BuildItAssets
     {
-        public string CategoryTabName { get; set; }
-
         public List<BuildItPiece> Pieces { get; set; }
     }
 }

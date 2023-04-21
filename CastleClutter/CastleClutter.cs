@@ -10,21 +10,28 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using fastJSON;
+using BepInEx.Bootstrap;
 
-namespace BuildItTemplate
+namespace CastleClutter
 {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [BepInDependency(Jotunn.Main.ModGuid)]
-    //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
-    internal class BuildItTemplate : BaseUnityPlugin
-    {
-        public const string PluginGUID = "com.RockerKitten.BuildItTemplate";
-        public const string PluginName = "BuildItTemplate";
-        public const string PluginVersion = "1.0.0";
+    [BepInDependency("com.RockerKitten.CastleScepter", BepInDependency.DependencyFlags.SoftDependency)]
 
+    //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
+    internal class CastleClutter : BaseUnityPlugin
+    {
+        public const string PluginGUID = "com.RockerKitten.CastleClutter";
+        public const string PluginName = "CastleClutter";
+        public const string PluginVersion = "1.0.0";
+        private static ItemDrop fuelWood;
+        private static ItemDrop fuelResin;
+        private static string TableName;
+        private static string CategoryTabName = "Clutter";
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
 
         private AssetBundle BuildItAssetBundle { get; set; }
+        //private AssetBundle BuildItAssetBundle2 { get; set; }
         //private AudioSource fireAudioSource;
 
         private Dictionary<BuildItMaterial, BuildItEffectLists> effects;
@@ -32,19 +39,20 @@ namespace BuildItTemplate
         private void Awake()
         {
             LoadEmbeddedAssembly("fastJSON.dll");
-            this.BuildItAssetBundle = AssetUtils.LoadAssetBundleFromResources("BuildItTemplate", Assembly.GetExecutingAssembly());
-
+            this.BuildItAssetBundle = AssetUtils.LoadAssetBundleFromResources("rkc_clutter", Assembly.GetExecutingAssembly());
+            //this.BuildItAssetBundle2 = AssetUtils.LoadAssetBundleFromResources("rkc_sign", Assembly.GetExecutingAssembly());
+            AddLocalizations();
             PrefabManager.OnVanillaPrefabsAvailable += SetupAssets;
-            Jotunn.Logger.LogInfo("BuildItTemplate has landed");
+            Jotunn.Logger.LogInfo("CastleClutter has landed");
         }
 
         private void SetupAssets()
         {
+
+            fuelResin = PrefabManager.Cache.GetPrefab<GameObject>("Resin").GetComponent<ItemDrop>();
+            fuelWood = PrefabManager.Cache.GetPrefab<GameObject>("Wood").GetComponent<ItemDrop>();
+            
             this.effects = InitializeEffects();
-            if (PrefabManager.Cache.GetPrefab<"rkc_scepter"> == null)
-            {
-                InitializeBuildItConstructionTools();
-            }
             InitializeBuildItConstructionTools();
             InitializeBuildItAssets();
             PrefabManager.OnVanillaPrefabsAvailable -= SetupAssets;
@@ -52,59 +60,49 @@ namespace BuildItTemplate
 
         private void InitializeBuildItConstructionTools()
         {
-            var hammerTableFab = this.BuildItAssetBundle.LoadAsset<GameObject>("_RKC_CustomTable");
-            var masonryTable = new CustomPieceTable(hammerTableFab,
-                new PieceTableConfig
-                {
-                    CanRemovePieces = true,
-                    UseCategories = false,
-                    UseCustomCategories = true,
-                    CustomCategories = new string[]
-                    {
-                        "Structure"
-                    }
-                });
-            PieceManager.Instance.AddPieceTable(masonryTable);
-            var toolFab = this.BuildItAssetBundle.LoadAsset<GameObject>("rkc_trowel");
-            var tool = new CustomItem(toolFab, false,
-                new ItemConfig
-                {
-                    Name = "$item_rkctrowel",
-                    Description = "Build it castle style with a good old fashioned masonry trowel.",
-                    Amount = 1,
-                    Enabled = true,
-                    CraftingStation = "forge",
-                    PieceTable = masonryTable.PieceTablePrefab.name,
-                    RepairStation = "forge",
-                    Requirements = new[]
-                    {
-                        new RequirementConfig {Item = "Wood", Amount = 1},
-                        new RequirementConfig {Item = "Iron", Amount = 1 }
-                    }
-                });
-                
-            ItemManager.Instance.AddItem(tool);
+            if (Chainloader.PluginInfos.ContainsKey("com.RockerKitten.CastleScepter")||Chainloader.PluginInfos.ContainsKey("com.RockerKitten.CastleStructure")) 
+            {
+                TableName = "_RKC_CustomTable";
+            }
+            else 
+            {
+                TableName = "_HammerPieceTable";
+            }
+
+        }
+        private void AddLocalizations()
+        {
+            Localization = LocalizationManager.Instance.GetLocalization();
+            Localization.AddTranslation("English", new Dictionary<String, String>
+            {
+                {"piece_rkc_alchemy","Alchemy Clutter"},{"piece_rkc_banner","Banner"},{"piece_rkc_barrels","Barrels"},{"piece_rkc_bed","Bed"},
+                {"piece_rkc_bench","Bench"},{"piece_rkc_books","Books"},{"piece_rkc_bookshelf","Bookshelf"},{"piece_rkc_bottle","Bottle"},
+                {"piece_rkc_bowl","Bowl"},{"piece_rkc_broom","Broom"},{"piece_rkc_candle","Candle"},{"piece_rkc_candlestand","Candlestand"},
+                {"piece_rkc_chair","Chair"},{"piece_rkc_chest","Chest"},{"piece_rkc_crystal","Crystal"},{"piece_rkc_crystallamp","Crystal Lamp"},
+                {"piece_rkc_curtain","Curtain"},{"piece_rkc_fountain","Fountain"},{"piece_rkc_chandelier","Chandelier"},
+                {"piece_rkc_inkwell","Inkwell"},{"piece_rkc_hanginglamp","Hanging Lamp"},{"piece_rkc_lamppost","Lamp Post"},{"piece_rkc_pan","Pan"},
+                {"piece_rkc_pedestal","Pedestal"},{"piece_rkc_plate","Plate"},{"piece_rkc_podium","Podium"},{"piece_rkc_rug","Rug"},
+                {"piece_rkc_scorpion","Scorpion"},{"piece_rkc_wallshelf","Wall Shelf"},{"piece_rkc_sign","Sign"},{"piece_rkc_statue","Statue"},
+                {"piece_rkc_table","Table"},{"piece_rkc_sidetable","Side Table"},{"piece_rkc_throne","Throne"},{"piece_rkc_torch","Torch"},
+                {"piece_rkc_tree","Tree"},{"piece_rkc_urn","Urn"},{"piece_rkc_walldeco","Wall Decorations"},
+                {"piece_rkc_wand","Wand"},{"piece_rkc_weaprack","Weapons Rack"}
+                //{"piece_rkc_trowel",""},
+            });
         }
 
         private void InitializeBuildItAssets()
         {
-            var buildItAssets = LoadEmbeddedJsonFile<BuildItAssets>("builditassets.json");
-
-            foreach (var buildItPieceTable in buildItAssets.PieceTables)
-            {
-                foreach (var buildItPieceCategory in buildItPieceTable.Categories)
-                {
-                    foreach (var buildItPiece in buildItPieceCategory.Pieces)
+            var buildItAssets = LoadEmbeddedJsonFile<BuildItAssets>("CastleClutter.json");
+                foreach (var buildItPiece in buildItAssets.Pieces)
                     {
-                        var customPiece = this.BuildCustomPiece(buildItPieceTable, buildItPieceCategory, buildItPiece);
+                        var customPiece = this.BuildCustomPiece(buildItPiece);
 
                         // load supplemental assets (sfx and vfx)
                         this.AttachEffects(customPiece.PiecePrefab, buildItPiece);
 
                         PieceManager.Instance.AddPiece(customPiece);
                     }
-                }
-            }
+               
         }
 
         private Dictionary<BuildItMaterial, BuildItEffectLists> InitializeEffects()
@@ -157,6 +155,18 @@ namespace BuildItTemplate
                         Close = createfxlist("sfx_door_close"),
                         Fuel  = createfxlist("vfx_HearthAddFuel"),
                     }
+                },
+                {
+                    BuildItMaterial.Crystal,
+                    new BuildItEffectLists
+                    {
+                        Place = createfxlist("sfx_build_hammer_crystal", "vfx_Place_stone_wall_2x1"),
+                        Break = createfxlist("fx_crystal_destruction"),
+                        Hit   = createfxlist("sfx_Rock_Hit"),
+                        Open  = createfxlist("sfx_door_open"),
+                        Close = createfxlist("sfx_door_close"),
+                        Fuel  = createfxlist("vfx_HearthAddFuel"),
+                    }
                 }
             };
 
@@ -172,18 +182,25 @@ namespace BuildItTemplate
         //    });
         //}
 
-        private CustomPiece BuildCustomPiece(BuildItPieceTable buildItPieceTable, BuildItPieceCategories buildItPieceCategory, BuildItPiece buildItPiece)
+        private CustomPiece BuildCustomPiece(BuildItPiece buildItPiece)
         {
-            var buildItPiecePrefab = this.BuildItAssetBundle.LoadAsset<GameObject>(buildItPiece.PrefabName);
-
+            GameObject buildItPiecePrefab;
+            // if (buildItPiece.PrefabName != "rkc_sign")
+            // {
+               buildItPiecePrefab = this.BuildItAssetBundle.LoadAsset<GameObject>(buildItPiece.PrefabName); 
+            // }
+            // else
+            // {
+            //     buildItPiecePrefab = this.BuildItAssetBundle2.LoadAsset<GameObject>(buildItPiece.PrefabName);
+            // }
             var pieceConfig = new PieceConfig();
             // TODO: verify token string
             pieceConfig.Name = buildItPiece.DisplayNameToken;
             pieceConfig.Description = buildItPiece.PrefabDescription;
             // NOTE: could move override to json config if needed.
             pieceConfig.AllowedInDungeons = false;
-            pieceConfig.PieceTable = buildItPieceTable.TableName;
-            pieceConfig.Category = buildItPieceCategory.CategoryTabName;
+            pieceConfig.PieceTable = TableName;
+            pieceConfig.Category = CategoryTabName;
             pieceConfig.Enabled = buildItPiece.Enabled;
             if (!string.IsNullOrWhiteSpace(buildItPiece.RequiredStation))
             {
@@ -203,7 +220,7 @@ namespace BuildItTemplate
                     mat.shader = Shader.Find("Custom/Piece");
                 }
             }
-            Jotunn.Logger.LogInfo(buildItPiecePrefab.name);
+            //Jotunn.Logger.LogInfo(buildItPiecePrefab.name);
             return customPiece;
         }
 
@@ -225,8 +242,19 @@ namespace BuildItTemplate
             if (piecePrefab.TryGetComponent<Fireplace>(out Fireplace fireplaceComponent))
             {
                 fireplaceComponent.m_fuelAddedEffects = this.effects[buildItPiece.Material].Fuel;
-                //fireplaceComponent.m_fuelItem = this.[buildItPiece.FuelItem];
-                // how to add fuel type?
+                if (buildItPiece.FuelItem == "Resin")
+                {
+                    fireplaceComponent.m_fuelItem = fuelResin;
+                }
+                else if (buildItPiece.FuelItem == "Wood")
+                {
+                    fireplaceComponent.m_fuelItem = fuelWood;
+                }
+                else
+                {
+                    Jotunn.Logger.LogInfo("You are missing a fuel type on " + buildItPiece.DisplayNameToken);
+                }
+                
                 //fireAudioSource = piecePrefab.GetComponentInChildren<AudioSource>();
                 //fireAudioSource.outputAudioMixerGroup = AudioMan.instance.m_ambientMixer;
             }
